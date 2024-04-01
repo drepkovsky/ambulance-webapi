@@ -57,7 +57,7 @@ spec:
 
         containers:
         - name: dr-ambulance-wl-webapi-container
-          image: <docker-id>/ambulance-wl-webapi:latest
+          image: drepkovsky/ambulance-wl-webapi:latest
           imagePullPolicy: Always
           ports:
           - name: webapi-port
